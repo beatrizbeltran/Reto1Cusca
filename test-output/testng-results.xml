@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-21T18:49:52 CST" name="SuiteRunner" finished-at="2024-02-21T18:50:10 CST" duration-ms="18165">
+  <suite started-at="2024-02-21T21:27:24 CST" name="SuiteRunner" finished-at="2024-02-21T21:27:44 CST" duration-ms="19652">
     <groups>
     </groups>
-    <test started-at="2024-02-21T18:49:52 CST" name="Reto1 Cusca" finished-at="2024-02-21T18:50:10 CST" duration-ms="18165">
+    <test started-at="2024-02-21T21:27:24 CST" name="Reto1 Cusca" finished-at="2024-02-21T21:27:44 CST" duration-ms="19652">
       <class name="reto.test.CalculoTesting">
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:reto.test.CalculoTesting@273e7444]" started-at="2024-02-21T18:49:43 CST" name="initDriver" finished-at="2024-02-21T18:49:52 CST" duration-ms="8804" status="PASS">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:reto.test.CalculoTesting@273e7444]" started-at="2024-02-21T21:27:14 CST" name="initDriver" finished-at="2024-02-21T21:27:24 CST" duration-ms="10239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="CalculoCuota1()[pri:0, instance:reto.test.CalculoTesting@273e7444]" started-at="2024-02-21T18:49:52 CST" name="CalculoCuota1" finished-at="2024-02-21T18:50:10 CST" duration-ms="18110" status="PASS">
+        <test-method signature="CalculoCuota1()[pri:0, instance:reto.test.CalculoTesting@273e7444]" started-at="2024-02-21T21:27:24 CST" name="CalculoCuota1" finished-at="2024-02-21T21:27:44 CST" duration-ms="19577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CalculoCuota1 -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:reto.test.CalculoTesting@273e7444]" started-at="2024-02-21T18:50:11 CST" name="quitDriver" finished-at="2024-02-21T18:50:11 CST" duration-ms="459" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:reto.test.CalculoTesting@273e7444]" started-at="2024-02-21T21:27:45 CST" name="quitDriver" finished-at="2024-02-21T21:27:46 CST" duration-ms="505" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->

@@ -8,7 +8,7 @@
     <classes>
       <class name="reto.test.CalculoTesting">
         <methods>
-          <include name="CalculoCuota1"/>
+          <include name="CalculoCuota2"/>
           <include name="quitDriver"/>
           <include name="initDriver"/>
         </methods>

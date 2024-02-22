@@ -4,6 +4,8 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+
 import ExtendReport.ExtentReportUtils;
 import reto.test.BaseTest;
 
@@ -61,8 +63,10 @@ public class CalculoPag {
 		ExtentReportUtils.addStep("Cuota calculada en sitio web: " + cuotaMensualEnWeb);
 		double cuotaMensual = calcularCuotaMensual(Double.parseDouble(Monto), Double.parseDouble(Prima), Double.parseDouble(intMensual));
 		ExtentReportUtils.addStep("Cuota calculada: " + "$"+Math.round(cuotaMensual* 100.0)/ 100.0);
-		//String result = ("$"+Math.round(cuotaMensual* 100.0)/ 100.0);
-		//Assert.assertTrue(cuotaMensualEnWeb==result);
+		String result = ("$"+Math.round(cuotaMensual* 100.0)/ 100.0);
+		Assert.assertEquals(cuotaMensualEnWeb==result, false, result);
+		ExtentReportUtils.addStep("Cuota calculada y Cuota en sitio web son iguales: " + "Calculo Web: " + cuotaMensualEnWeb+ "Calculo de Validacións: " + result);
+
 
 	}
 

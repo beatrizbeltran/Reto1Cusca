@@ -13,5 +13,6 @@ public class CalculoTesting extends BaseTest{
 		
 		CalculoPag.CalculatorPageTest("250000", "50000", "4.0");
 	}
+	
 
 }
