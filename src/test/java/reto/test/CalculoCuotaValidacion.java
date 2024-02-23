@@ -2,7 +2,7 @@ package reto.test;
 
 public class CalculoCuotaValidacion {
 	public static void main(String[] args) {
-		double M = 250000.00; 
+		double M = 280000.00; 
 		double P = (M * 0.20);
 		double MontoMenosPrima = M-P;
 		double interes = 4*0.01;

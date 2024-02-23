@@ -71,7 +71,7 @@ public class CalculoPag {
 	}
 
 	public double calcularCuotaMensual(double Monto, double PagoInicial, double Interes) {
-		double P = (Monto * 0.20);
+		double P = PagoInicial;
 		double MontoMenosPrima = Monto - P;
 		double r = (Interes * 0.01) / 12;
 		int n = 360;

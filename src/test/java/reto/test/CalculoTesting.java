@@ -11,7 +11,7 @@ public class CalculoTesting extends BaseTest{
 	public void CalculoCuota1() throws InterruptedException {
 		CalculoPag CalculoPag = new CalculoPag();
 		
-		CalculoPag.CalculatorPageTest("250000", "50000", "4.0");
+		CalculoPag.CalculatorPageTest("280000", "70000", "3.0");
 	}
 	
 
